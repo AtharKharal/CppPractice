@@ -5,11 +5,13 @@ using namespace std;
 
 int main ()
 {
-    int age;
-    cout << "Enter your age: " << endl;
-    cin >> age;  
+    string name;
+    cout << "Enter your name: ";
+    getline(cin, name);
 
-   cout << "You are " << age << " years old" << endl;
-   
+    cout << "Your name is " << name << endl;
+
     return 0;
+
+    
 }
