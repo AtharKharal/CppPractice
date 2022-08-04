@@ -2,7 +2,7 @@
 
 using namespace std;
 
-double cube(double num)
+int cube(double num)
 {
    double result = num * num * num;
     return result; 
@@ -10,7 +10,7 @@ double cube(double num)
 
 int main ()
 {
-    double answer = cube (5.0);
+    double answer = cube (5.5);
     cout << answer << endl;
 
     return 0;
