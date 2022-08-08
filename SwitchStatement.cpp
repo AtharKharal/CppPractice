@@ -38,3 +38,5 @@ int main()
     cout << GetDayOfWeek (3) << endl; 
     return 0;
 }
+
+// also merge this comment as well.
