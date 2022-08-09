@@ -8,7 +8,14 @@ int main (){
         {6, 4},
         {1, 0}
     };
-    cout << NumberGrid[0][0] << endl;
+    for (int i = 0; i < 4; i++){
+        for (int j = 0; j < 2; j++){
+            cout << NumberGrid[i][j];
+        }
+        cout << endl;
+    }
+
+
     
     return 0;
     
