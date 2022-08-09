@@ -6,7 +6,7 @@ int main (){
         {4, 0},
         {8, 9},
         {6, 4},
-        {1, 0}
+        {1, 0};
     };
     for (int i = 0; i < 4; i++){
         for (int j = 0; j < 2; j++){
@@ -14,9 +14,6 @@ int main (){
         }
         cout << endl;
     }
-
-
-    
     return 0;
     
 }
