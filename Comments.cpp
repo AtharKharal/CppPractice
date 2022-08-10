@@ -2,7 +2,7 @@
 using namespace std;
 
 int main (){
-    // we're printing the below statement
+    // we are printing the following statement
     
     cout << "Comments are added" << endl;
 
