@@ -12,7 +12,7 @@ int main ()
 {
     Animals dog;
     dog.name = "Charlie";
-    dog.breed = "German hepherd";
+    dog.breed = "German Shepherd";
     dog.age = 5; 
 
     cout << "Name: " << dog.name << endl;
