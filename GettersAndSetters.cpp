@@ -28,8 +28,7 @@ class movie {
 
 int main(){
     movie avengers ("The Avengers", "Joe Russo", "PG-13"); 
-   
-    avengers.setRating ("Dog");
+
 
     cout << avengers.getRating() << endl; 
 
