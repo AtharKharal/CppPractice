@@ -13,6 +13,7 @@ class student {
         major = aMajor;
         gpa = aGPA;
     }
+    
     bool hasHonors(){
         if (gpa >= 3.5){
             return true;
